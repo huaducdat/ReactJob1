@@ -55,8 +55,9 @@
 input {
   padding: 3px 6px;
   border-radius: 3px;
-  border: 1px solid black;
+  border: none;
   outline: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 input:focus {
   border: 2px solid rgb(0, 81, 255);
