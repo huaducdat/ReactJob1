@@ -27,7 +27,7 @@ function App() {
 
   const decreaseHandle = () => {
     if (obj.clickCount === 0) {
-      alert("Click count must be lager than 0!");
+      alert("Click count must be larger than 0!");
       return;
     }
     setObj((pre) => ({ ...pre, clickCount: pre.clickCount - 1 }));
